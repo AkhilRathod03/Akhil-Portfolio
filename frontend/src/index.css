@@ -1,0 +1,122 @@
+:root {
+  --bg-primary: #0A0A0F;
+  --bg-secondary: #0F0F1A;
+  --bg-card: #12121E;
+  --accent-cyan: #00D4FF;
+  --accent-violet: #7B2FFF;
+  --accent-pink: #FF2D78;
+  --text-primary: #FFFFFF;
+  --text-secondary: #B0B0C8;
+  --text-muted: #6B6B8A;
+  --gradient-main: linear-gradient(135deg, #00D4FF 0%, #7B2FFF 50%, #FF2D78 100%);
+  --gradient-text: linear-gradient(90deg, #00D4FF, #7B2FFF, #FF2D78);
+  --card-border: rgba(0, 212, 255, 0.15);
+  --card-glow: 0 0 30px rgba(0, 212, 255, 0.2);
+  --card-hover-glow: 0 0 50px rgba(123, 47, 255, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-cyan);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-violet);
+}
+
+::selection {
+  background: var(--accent-cyan);
+  color: var(--bg-primary);
+}
+
+.gradient-text {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.glow-btn {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 1px solid var(--accent-cyan);
+  background: transparent;
+  color: var(--accent-cyan);
+  font-weight: 600;
+  transition: 0.3s all ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.glow-btn:hover {
+  background: var(--accent-cyan);
+  color: var(--bg-primary);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.text-bright {
+  color: #FFFFFF !important;
+}
+
+.text-secondary-bright {
+  color: #F0F0FF !important;
+  line-height: 1.6;
+}
+
+.text-muted-bright {
+  color: #D1D1FF !important;
+  font-weight: 500;
+}
+
+.card-glass {
+  background: rgba(18, 18, 30, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  border-radius: 15px;
+}
+
+section {
+  padding: 100px 0;
+}

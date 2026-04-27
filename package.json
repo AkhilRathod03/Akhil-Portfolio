@@ -1,7 +1,0 @@
-{
-  "name": "portfolio-root",
-  "private": true,
-  "scripts": {
-    "build": "cd frontend && npm install && CI=false npm run build && cp -r build ../"
-  }
-}

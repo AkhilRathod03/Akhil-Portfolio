@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaYoutube, FaLinkedin, FaUsers, FaArrowRight } from 'react-icons/fa';
+import { FaYoutube, FaLinkedin, FaArrowRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const SocialMedia = () => {

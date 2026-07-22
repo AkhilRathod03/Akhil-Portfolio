@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar as BootNavbar, Nav, Container } from 'react-bootstrap';
-import { motion, AnimatePresence } from 'framer-motion';
 import { HiDownload } from 'react-icons/hi';
 
 const Navbar = () => {

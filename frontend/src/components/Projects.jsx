@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 
 const Projects = () => {
-  const [filter, setFilter] = useState('All');
 
   const featuredProjects = [
     {

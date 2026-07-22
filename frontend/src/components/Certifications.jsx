@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { motion } from 'framer-motion';
 import { SiIbm, SiOracle, SiQualcomm, SiAccenture, SiFreecodecamp, SiCisco } from 'react-icons/si';
 
 const Certifications = () => {

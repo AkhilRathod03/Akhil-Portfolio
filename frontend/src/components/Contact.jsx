@@ -19,7 +19,7 @@ const Contact = () => {
     setStatus({ type: '', msg: '' });
 
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api/contact/`, formData);
+      await axios.post(`${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api/contact/`, formData);
       setStatus({ type: 'success', msg: 'Message sent! I\'ll reply soon 😊' });
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {

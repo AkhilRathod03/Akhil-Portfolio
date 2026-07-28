@@ -1,6 +1,6 @@
 # 🚀 Professional Full-Stack Portfolio | Akhil Kumar
 
-A high-performance, visually stunning portfolio website built with a **React** frontend and a **Django** backend. Featuring interactive 3D animations, glassmorphism design, and a real-time data management system
+A high-performance, visually stunning portfolio website built with a **React** frontend and a **Django** backend. Featuring interactive 3D animations, glassmorphism design, and a real-time data management system.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)

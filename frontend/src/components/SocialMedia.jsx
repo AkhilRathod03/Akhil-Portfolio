@@ -68,7 +68,7 @@ const SocialMedia = () => {
                     Let's connect! I share updates about my latest projects, internships, and tech insights.
                   </p>
                   <a 
-                    href="https://www.linkedin.com/in/akhilkumar-p" 
+                    href="https://www.linkedin.com/in/akhilmegavath" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="glow-btn d-inline-flex align-items-center gap-2 social-btn-li"

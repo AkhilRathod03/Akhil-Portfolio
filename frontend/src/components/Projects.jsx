@@ -8,6 +8,16 @@ const Projects = () => {
 
   const featuredProjects = [
     {
+      title: 'Centralized Curriculum System (CurveIQ)',
+      subtitle: 'AI Curriculum Generator (Synycs Internship)',
+      desc: 'Full-stack multi-tenant academic platform with RBAC (Admin, Faculty, Student), Gemini API for prompt-driven content generation, JWT auth, FullCalendar conflict detection, and Recharts analytics.',
+      tech: ['React.js', 'Django REST', 'Gemini API', 'PostgreSQL', 'JWT', 'Vercel'],
+      category: 'Full Stack & AI',
+      link: 'https://github.com/AkhilRathod03/CurveIQ.git',
+      demo: 'https://curveiq-two.vercel.app/login',
+      featured: true
+    },
+    {
       title: 'Smart Fit AI',
       subtitle: 'Personalized Workout & Diet Planner',
       desc: 'An intelligent full-stack AI app that delivers personalized health recs. Users input fitness goals → ML backend generates custom diet & workout plans.',
@@ -127,7 +137,7 @@ const Projects = () => {
           <h4 className="gradient-text fw-bold mb-4 fs-3" data-aos="fade-right">💎 FEATURED MASTERPIECES</h4>
           <Row className="g-5">
             {featuredProjects.map((project, idx) => (
-              <ProjectCard key={project.title} project={project} idx={idx} isHalfWidth={true} />
+              <ProjectCard key={project.title} project={project} idx={idx} isHalfWidth={false} />
             ))}
           </Row>
         </div>

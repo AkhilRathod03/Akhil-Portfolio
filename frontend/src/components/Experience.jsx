@@ -5,18 +5,48 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Experience = () => {
   const experiences = [
     {
+      id: 'euroasiann',
+      company: 'Euroasiann Marine Spares',
+      role: 'Software Developer Intern',
+      duration: 'June 2026 – Present',
+      location: 'Hyderabad (On-site)',
+      points: [
+        'Building features & React UI enhancements on a live, multi-portal maritime procurement ERP platform',
+        'Executing functional, regression, and UAT testing across Vendor, Customer, Admin, and Port Agent portals',
+        'Identified and documented 26+ functional and workflow issues during Vendor Portal testing cycles',
+        'Validated WebSocket-based live chat, real-time notifications, and AI-assisted Vendor Onboarding modules',
+        'Hands-on exposure to Git PR workflows, merge conflict resolution, Docker, and deployment troubleshooting'
+      ],
+      tech: ['React.js', 'WebSockets', 'REST API', 'Git', 'Docker', 'UAT/Regression Testing'],
+      color: 'var(--accent-cyan)'
+    },
+    {
+      id: 'synycs',
+      company: 'Synycs',
+      role: 'Software Developer Intern',
+      duration: 'Software Internship',
+      location: 'Remote',
+      points: [
+        'Designed & built Centralized Curriculum Management System (CCMS), a full-stack multi-tenant platform with RBAC',
+        'Integrated Gemini API for prompt-driven automated curriculum generation, reducing manual content entry',
+        'Implemented JWT auth, FullCalendar conflict detection, and Recharts analytics dashboards deployed on Vercel, Render, Supabase'
+      ],
+      tech: ['React.js', 'Django REST', 'Gemini API', 'PostgreSQL', 'JWT', 'Vercel'],
+      color: 'var(--accent-pink)'
+    },
+    {
       id: 'ibm',
       company: 'IBM Skills Build',
       role: 'AI & ML Intern',
       duration: 'Dec 2025 – Jan 2026',
       location: 'Remote',
       points: [
-        'Developed Smart Fit AI — full-stack AI health recommendation web app using Python & Streamlit',
-        'Designed ML recommendation algorithm for diet & workout plans',
-        'Built real-time interactive dashboard for fitness tracking'
+        'Developed SmartFit AI — full-stack AI health recommendation web app using Python & Streamlit',
+        'Designed ML recommendation algorithm for diet & workout plans using BMR calculations',
+        'Built real-time interactive dashboard for fitness tracking across 2,000+ food records'
       ],
-      tech: ['Python', 'Streamlit', 'ML', 'REST API'],
-      color: 'var(--accent-cyan)'
+      tech: ['Python', 'Streamlit', 'ML', 'Pandas', 'REST API'],
+      color: 'var(--accent-violet)'
     },
     {
       id: 'pinnacle',
@@ -25,12 +55,12 @@ const Experience = () => {
       duration: 'Sep 2025 – Oct 2025',
       location: 'Remote',
       points: [
-        'Built ecommerce platform, calendar reminder & quiz app',
-        'Data handling with Pandas, NumPy',
-        'Optimised DB queries → 30% faster'
+        'Built backend modules for e-commerce platform, calendar reminder & quiz app',
+        'Applied REST API standards and data processing with Pandas and NumPy',
+        'Optimized DB queries resulting in 30% performance improvement'
       ],
-      tech: ['Python', 'MySQL', 'Pandas', 'NumPy'],
-      color: 'var(--accent-violet)'
+      tech: ['Python', 'MySQL', 'Pandas', 'NumPy', 'REST API'],
+      color: '#00D4FF'
     },
     {
       id: 'oasis',
@@ -39,12 +69,12 @@ const Experience = () => {
       duration: 'Jul 2025 – Aug 2025',
       location: 'Remote',
       points: [
-        'Built 3 responsive web projects',
-        'Mobile-first HTML/CSS/JS UIs',
-        'Applied UI/UX design principles'
+        'Built 3 responsive web applications with interactive user interfaces',
+        'Developed mobile-first HTML/CSS/JS UIs with clean architecture',
+        'Applied modern UI/UX design principles and accessibility standards'
       ],
       tech: ['HTML5', 'CSS3', 'JavaScript'],
-      color: 'var(--accent-pink)'
+      color: '#7B2FFF'
     }
   ];
 

@@ -36,7 +36,7 @@ const StatCounter = ({ value }) => {
 
 const About = () => {
   const stats = [
-    { label: 'Internships', value: '3+' },
+    { label: 'Internships', value: '4+' },
     { label: 'Projects', value: '5+' },
     { label: 'Certifications', value: '5+' },
     { label: 'Hrs Coded', value: '1000+' },
@@ -50,13 +50,13 @@ const About = () => {
             <h2 className="section-title text-start mb-4">About Me</h2>
             <div className="accent-bar mb-4" style={{ width: '80px', height: '4px', background: 'var(--gradient-text)' }}></div>
             <p className="text-white mb-4" style={{ fontSize: '1.05rem', opacity: 0.9 }}>
-              From the bustling city of Hyderabad, I'm a Computer Science graduate who discovered a passion for software development that goes beyond writing code — it's about crafting solutions that actually matter. Whether it's building AI-powered health tools or detecting security vulnerabilities, I love turning complex problems into elegant, working software.
+              From the bustling city of Hyderabad, I'm a Computer Science graduate passionate about full-stack software development, AI-driven applications, and enterprise platforms. I am currently working as a Software Developer Intern at Euroasiann Marine Spares Pvt Ltd, contributing to feature development, UI enhancements, and end-to-end testing on a live maritime procurement ERP platform.
             </p>
             <p className="text-white mb-4" style={{ fontSize: '1.05rem', opacity: 0.9 }}>
-              My journey has taken me through three transformative internships — at IBM Skills Build where I built Smart Fit AI, at Pinnacle Labs mastering Python backends and database optimisation, and at Oasis Info byte sharpening frontend development. Each experience added a new layer to my understanding of how great software is built — collaboratively, thoughtfully, and always with the user in mind.
+              My hands-on experience spans key software internships — building live enterprise web modules at Euroasiann Marine Spares, developing the AI-powered Centralized Curriculum Management System (CurveIQ) at Synycs using Gemini API & Django REST Framework, engineering SmartFit AI at IBM SkillsBuild, and optimizing Python backends at Pinnacle Labs.
             </p>
             <p className="text-white mb-5" style={{ fontSize: '1.05rem', opacity: 0.9 }}>
-              Beyond the screen, I'm someone who's constantly learning — whether that's diving into a new ML paper, experimenting with a new framework, or contributing to GitHub. I'm currently seeking an opportunity where I can contribute meaningfully, grow alongside talented engineers, and build things that make a real difference.
+              Beyond the screen, I'm dedicated to continuous learning — integrating modern Gemini AI tools, mastering full-stack architectures, and solving complex production workflow challenges. I am seeking an opportunity to contribute meaningfully as a Software Developer in a high-impact engineering team.
             </p>
 
             <Row className="g-3">

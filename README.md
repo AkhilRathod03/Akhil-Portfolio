@@ -55,7 +55,7 @@ npm install
 npm start
 ```
 
-## 📬 Contact
+## 📬 Contact:
 - **LinkedIn:** [Akhil Kumar](https://www.linkedin.com/in/akhilmegavath)
 - **YouTube:** [@akhil_rathod03](https://www.youtube.com/@akhil_rathod03)
 - **Email:** akhil.megavath03@gmail.com
